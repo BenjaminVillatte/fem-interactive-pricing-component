@@ -1,0 +1,7 @@
+switch-control {
+  --background-color: var(--color-light-grayish-blue2);
+  --cursor-color: var(--color-white);
+
+  --background-color-checked: var(--color-soft-cyan);
+  --cursor-color-checked: var(--color-strong-cyan);
+}
