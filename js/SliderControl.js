@@ -7,7 +7,7 @@ export default class SliderControl extends HTMLElement {
     this.max = this.getAttribute('max')
     this.initialValue = this.getAttribute('value')
     this.value = this.initialValue
-    this.innerHTML = `<input type="range" min="${this.min}" max="${this.max}" value="${this.initialValue}" step="${step}">`
+    this.innerHTML = `<input type="range" name="nb_pages" min="${this.min}" max="${this.max}" value="${this.initialValue}" step="${step}">`
   }
 
   calculProgress = () => {
