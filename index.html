@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/fem-interactive-pricing-component/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap" rel="stylesheet">
+
+    <title>Interactive pricing component</title>
+
+  <script type="module" crossorigin src="/fem-interactive-pricing-component/assets/index.d85cc67e.js"></script>
+  <link rel="stylesheet" href="/fem-interactive-pricing-component/assets/index.4b9eb467.css">
+</head>
+
+  <body>
+
+    <main>
+
+      <section class="heading">
+
+        <h1>Simple, traffic-based pricing</h1>
+
+        <p class="subtitle">Sign-up for our 30-day trial. No credit card required.</p>
+
+      </section>
+
+      <section class="pricing-card">
+
+        <div class="card-body">
+
+          <div class="pricing">
+
+            <div class="pageviews"><span class="nb">100k</span> Pageviews</div>
+            
+            <slider-control min="10" max="200" step="10" value="100"></slider-control>
+            
+            <div class="price"><span class="priceValue">$16.00</span> / month</div>
+
+          </div>
+
+          <div class="billing">
+            <switch-control>
+              <div slot="off">Monthly Billing</div>
+              <div slot="on">
+                Yearly Billing
+                
+              </div>
+              
+            </switch-control>
+            <span class="badge">-25% <span class="text">discount</span></span>
+          </div>
+          
+        </div>
+
+        <div class="card-footer">
+          
+          <ul class="features">
+
+            <li>Unlimited websites</li>
+
+            <li>100% data ownership</li>
+
+            <li>Email reports</li>
+            
+          </ul>
+
+          <div>
+
+          <button class="cta">Start my trial</button>
+
+        </div>
+
+        </div>
+
+      </section>
+
+    </main>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/BenjaminVillatte">Benjamin VILLATTE</a>.
+    </div>
+    
+    
+
+  </body>
+
+</html>
